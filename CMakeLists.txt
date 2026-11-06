@@ -16,10 +16,10 @@ FetchContent_MakeAvailable(imgui)
 
 # ── sources ───────────────────────────────────────────────────
 set(SOURCES
-    src/main.cpp
-    src/hooks.cpp
-    src/features.cpp
-    src/menu.cpp
+    src2/dllmain.cpp
+    src2/hooks.cpp
+    src2/features.cpp
+    src2/menu.cpp
     ${imgui_SOURCE_DIR}/imgui.cpp
     ${imgui_SOURCE_DIR}/imgui_draw.cpp
     ${imgui_SOURCE_DIR}/imgui_widgets.cpp
